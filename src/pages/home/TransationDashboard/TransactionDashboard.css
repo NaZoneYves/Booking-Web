@@ -1,0 +1,48 @@
+.transaction-dashboard {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-dashboard h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .transaction-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-dashboard th,
+  .transaction-dashboard td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-dashboard th {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-dashboard tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .status-booked {
+    color: red;
+  }
+  
+  .status-checkin {
+    color: green;
+  }
+  
+  .status-checkout {
+    color: purple;
+  }
+  
